@@ -1,0 +1,109 @@
+---
+title: "case_study_file"
+author: "Binod Jung Bogati"
+date: "9/21/2019"
+output: 
+html_document
+highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+```{r}
+library(readxl)
+library(dplyr)
+
+
+province_1 <- read_excel("./data/dengue_np.xlsx", 
+                      sheet = )
+
+province_2 <- read_excel("",
+                         sheet = )
+province_3 <- read_excel("",
+                         sheet = )
+province_4 <- read_excel("",
+                         sheet = )
+province_5 <- read_excel("",
+                         sheet = )
+province_6 <- read_excel("",
+                         sheet = )
+province_7 <- read_excel("",
+                         sheet = )
+
+nepal_province <- bind_rows()
+
+
+```
+
+```{r}
+library(tidyverse)
+
+np_province <- province_df %>% 
+  pivot_longer(cols = , 
+               names_to = , 
+               values_to = )
+
+```
+
+```{r}
+province_df %>% View()
+np_province %>% View()
+```
+
+## Find highest dengue cases in year 2070
+
+```{r}
+
+highest_cases_2070 <- 
+  
+  
+  
+  
+head(highest_cases_2070)
+
+```
+
+
+## Plot highest cases of 2070
+
+```{r}
+
+highest_cases_2070 
+
+```
+
+
+```{r}
+
+
+```
+
+## Convert np_province to wider format
+
+```{r}
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
